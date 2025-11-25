@@ -507,7 +507,7 @@ class _AnimeTile extends StatelessWidget {
                   const SizedBox(height: 4),
                   Text(subtitle, style: const TextStyle(color: Colors.white70, fontSize: 12)),
                   const SizedBox(height: 8),
-                  Row(
+                  Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Row(
@@ -661,7 +661,7 @@ class _MangaTile extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                   ),
                   const SizedBox(height: 8),
-                  Row(
+                  Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Row(

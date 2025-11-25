@@ -245,12 +245,12 @@ class _AnimeBrowsePageState extends State<AnimeBrowsePage> {
             child: GridView.builder(
               itemCount: MangaData.mangaList.length,
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2,
-                mainAxisSpacing: 12,
-                crossAxisSpacing: 12,
-                width: 160,
-                height: 280,
-              ),
+                    crossAxisCount: 2,
+                    mainAxisSpacing: 12,
+                    crossAxisSpacing: 12,
+                    width: 180,
+                    height: 280,
+                  ),
               itemBuilder: (context, index) {
                 final manga = MangaData.mangaList[index];
                 return _MangaTile(

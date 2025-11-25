@@ -153,7 +153,7 @@ class _AnimeBrowsePageState extends State<AnimeBrowsePage> {
                     mainAxisSpacing: 12,
                     crossAxisSpacing: 12,
                     width: 180,
-                    height: 280,
+                    height: 300,
                   ),
                   itemBuilder: (context, index) {
                     final item = AnimeData.animeList[index];
@@ -249,7 +249,7 @@ class _AnimeBrowsePageState extends State<AnimeBrowsePage> {
                     mainAxisSpacing: 12,
                     crossAxisSpacing: 12,
                     width: 180,
-                    height: 280,
+                    height: 300,
                   ),
               itemBuilder: (context, index) {
                 final manga = MangaData.mangaList[index];

@@ -152,7 +152,8 @@ class _AnimeBrowsePageState extends State<AnimeBrowsePage> {
                     crossAxisCount: 2,
                     mainAxisSpacing: 12,
                     crossAxisSpacing: 12,
-                    childAspectRatio: 0.50,
+                    width: 180,
+                    height: 300,
                   ),
                   itemBuilder: (context, index) {
                     final item = AnimeData.animeList[index];

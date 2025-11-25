@@ -4,6 +4,7 @@ import '../models/manga_data.dart';
 import 'package:anime/main.dart'; 
 
 class AnimeBrowsePage extends StatefulWidget {
+  
   final int initialTabIndex;
   
   const AnimeBrowsePage({super.key, this.initialTabIndex = 0});
@@ -151,7 +152,7 @@ class _AnimeBrowsePageState extends State<AnimeBrowsePage> {
                     crossAxisCount: 2,
                     mainAxisSpacing: 12,
                     crossAxisSpacing: 12,
-                    childAspectRatio: 0.80,
+                    childAspectRatio: 0.66,
                   ),
                   itemBuilder: (context, index) {
                     final item = AnimeData.animeList[index];

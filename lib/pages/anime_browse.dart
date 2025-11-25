@@ -247,7 +247,7 @@ class _AnimeBrowsePageState extends State<AnimeBrowsePage> {
                 crossAxisCount: 2,
                 mainAxisSpacing: 12,
                 crossAxisSpacing: 12,
-                childAspectRatio: 0.80,
+                childAspectRatio: 0.30,
               ),
               itemBuilder: (context, index) {
                 final manga = MangaData.mangaList[index];
@@ -355,8 +355,8 @@ class _AnimeBrowsePageState extends State<AnimeBrowsePage> {
               borderRadius: BorderRadius.circular(6),
               child: Image.asset(
                 item['image']!, 
-                width: 56, 
-                height: 56, 
+                width: 50, 
+                height: 50, 
                 fit: BoxFit.cover, 
                 errorBuilder: (c, e, s) => Container(color: Colors.grey[800], width: 56, height: 56)
               ),
@@ -406,8 +406,8 @@ class _AnimeBrowsePageState extends State<AnimeBrowsePage> {
               borderRadius: BorderRadius.circular(6),
               child: Image.asset(
                 item['image']!, 
-                width: 56, 
-                height: 56, 
+                width: 50, 
+                height: 50, 
                 fit: BoxFit.cover, 
                 errorBuilder: (c, e, s) => Container(color: Colors.grey[800], width: 56, height: 56)
               ),
@@ -700,7 +700,7 @@ class _MangaTile extends StatelessWidget {
                       icon: Icon(isAdded ? Icons.check : Icons.playlist_add, size: 16),
                       label: Text(
                         isAdded ? 'Added' : 'Add to my list',
-                        style: const TextStyle(fontSize: 12),
+                        style: const TextStyle(fontSize: 10),
                       ),
                       onPressed: () => onToggle(index),
                     ),

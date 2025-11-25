@@ -47,7 +47,7 @@ class _AnimeBrowsePageState extends State<AnimeBrowsePage> {
         actions: [
           IconButton(
             icon: const Icon(Icons.search),
-            onPressed: () {},
+            onTap: () => _navigateToHome(context),
             color: theme.colorScheme.primary,
           ),
           IconButton(
